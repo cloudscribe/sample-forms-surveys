@@ -43,6 +43,20 @@ namespace Microsoft.Extensions.DependencyInjection
                     authBuilder.RequireRole("Administrators", "Content Administrators");
                 });
 
+            options.AddPolicy(
+                "FormsAdminPolicy",
+                authBuilder =>
+                {
+                    authBuilder.RequireRole("Administrators", "Content Administrators");
+                });
+
+            options.AddPolicy(
+                "FormsChooserPolicy",
+                authBuilder =>
+                {
+                    authBuilder.RequireRole("Administrators", "Content Administrators");
+                });
+
 
             // add other policies here 
 
