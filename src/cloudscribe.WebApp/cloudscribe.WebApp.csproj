@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>cloudscribe.WebApp-4B266622-B2C5-4866-8FFA-3E426E87407E</UserSecretsId>
+  </PropertyGroup>
+
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;0436</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;0436</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="wwwroot\**\*;navigation.xml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+
+    <Content Remove="appsettings.Development.json" CopyToPublishDirectory="Never" />
+    <Content Include="appsettings.Development.json" CopyToPublishDirectory="Never" />
+    
+    <Content Include="sitefiles\**\wwwroot\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="SharedThemes\**\wwwroot\**" CopyToPublishDirectory="PreserveNewest" />
+
+  </ItemGroup>
+
+  <ItemGroup Label="Package References">
+
+    <PackageReference Include="cloudscribe.Core.Web" Version="3.1.*" />
+    <PackageReference Include="cloudscribe.Core.CompiledViews.Bootstrap4" Version="3.1.*" />
+    <PackageReference Include="cloudscribe.Web.StaticFiles" Version="1.0.*" />
+    <PackageReference Include="cloudscribe.Core.Storage.NoDb" Version="3.0.*" />
+    
+    <PackageReference Include="cloudscribe.Core.SimpleContent" Version="4.0.*" />
+    <PackageReference Include="cloudscribe.SimpleContent.Web" Version="4.0.*" />
+    <PackageReference Include="cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap4" Version="4.0.*" />
+    <PackageReference Include="cloudscribe.SimpleContent.CompiledViews.Bootstrap4" Version="4.0.*" />
+    <PackageReference Include="cloudscribe.SimpleContent.MetaWeblog" Version="4.0.*" />
+    <PackageReference Include="cloudscribe.SimpleContent.Syndication" Version="4.0.*" />
+    <PackageReference Include="cloudscribe.SimpleContent.ContentTemplates.Bootstrap4" Version="1.0.*" />
+    <PackageReference Include="cloudscribe.SimpleContent.Storage.NoDb" Version="4.0.*" />
+
+    <PackageReference Include="cloudscribe.Logging.Web" Version="3.0.*" />
+    <PackageReference Include="cloudscribe.Logging.NoDb" Version="3.0.*" />
+
+
+
+
+    <PackageReference Include="cloudscribe.Web.Localization" Version="2.0.*" />
+    
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    
+  </ItemGroup>
+
+
+</Project>
