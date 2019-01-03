@@ -1,6 +1,6 @@
 # Reference/demo app to showcase the [cloudscribe Forms and Surveys Product](https://www.cloudscribe.com/products/cloudscribe-forms-and-surveys-solution)
 
-The sample solutrion uses NoDb by default which is a file system storage, this enabled us to pre-populate the sample with some sample forms. You can change it to use MS SQL, My Sql, PostgreSql or SQLite by appsettings.json.
+The sample solution uses NoDb by default which is a file system storage, this enabled us to pre-populate the sample with some sample forms. You can change it to use MS SQL, My Sql, PostgreSql or SQLite by appsettings.json.
 
 You should create an appsettings.Development.json file to override any settings you want to change. This file is gitignored to avoid credentials going into source control.
 
