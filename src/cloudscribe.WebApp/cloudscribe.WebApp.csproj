@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>cloudscribe.WebApp-4B266622-B2C5-4866-8FFA-3E426E87407E</UserSecretsId>
+  </PropertyGroup>
+
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;0436</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;0436</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="wwwroot\**\*;navigation.xml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+
+    <Content Remove="appsettings.Development.json" CopyToPublishDirectory="Never" />
+    <Content Include="appsettings.Development.json" CopyToPublishDirectory="Never" />
+    
+    <Content Include="sitefiles\**\wwwroot\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="SharedThemes\**\wwwroot\**" CopyToPublishDirectory="PreserveNewest" />
+
+  </ItemGroup>
+
+  <ItemGroup Label="Package References">
+
+    <!-- Open Source libs start -->
+    <PackageReference Include="cloudscribe.Core.Web" Version="3.1.40" />
+    <PackageReference Include="cloudscribe.Core.CompiledViews.Bootstrap4" Version="3.1.20" />
+    <PackageReference Include="cloudscribe.Web.StaticFiles" Version="1.0.8" />
+    <PackageReference Include="cloudscribe.Core.Storage.NoDb" Version="3.0.9" />
+    <PackageReference Include="cloudscribe.Core.Storage.EFCore.MSSQL" Version="3.0.9" />
+    <PackageReference Include="cloudscribe.Core.Storage.EFCore.MySql" Version="3.0.9" />
+    <PackageReference Include="cloudscribe.Core.Storage.EFCore.PostgreSql" Version="3.0.9" />
+    <PackageReference Include="cloudscribe.Core.Storage.EFCore.SQLite" Version="3.0.10" />
+    
+    <PackageReference Include="cloudscribe.Core.SimpleContent" Version="4.0.6" />
+    <PackageReference Include="cloudscribe.SimpleContent.Web" Version="4.0.17" />
+    <PackageReference Include="cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap4" Version="4.0.2" />
+    <PackageReference Include="cloudscribe.SimpleContent.CompiledViews.Bootstrap4" Version="4.0.11" />
+    <PackageReference Include="cloudscribe.SimpleContent.MetaWeblog" Version="4.0.8" />
+    <PackageReference Include="cloudscribe.SimpleContent.Syndication" Version="4.0.5" />
+    <PackageReference Include="cloudscribe.SimpleContent.ContentTemplates.Bootstrap4" Version="1.0.11" />
+    <PackageReference Include="cloudscribe.SimpleContent.Storage.NoDb" Version="4.0.8" />
+    <PackageReference Include="cloudscribe.SimpleContent.Storage.EFCore.MSSQL" Version="4.0.5" />
+    <PackageReference Include="cloudscribe.SimpleContent.Storage.EFCore.MySQL" Version="4.0.6" />
+    <PackageReference Include="cloudscribe.SimpleContent.Storage.EFCore.PostgreSql" Version="4.0.5" />
+    <PackageReference Include="cloudscribe.SimpleContent.Storage.EFCore.SQLite" Version="4.0.8" />
+
+    <PackageReference Include="cloudscribe.Logging.Web" Version="3.0.9" />
+    <PackageReference Include="cloudscribe.Logging.NoDb" Version="3.0.5" />
+    <PackageReference Include="cloudscribe.Logging.EFCore.MSSQL" Version="3.0.8" />
+    <PackageReference Include="cloudscribe.Logging.EFCore.MySql" Version="3.0.8" />
+    <PackageReference Include="cloudscribe.Logging.EFCore.PostgreSql" Version="3.0.10" />
+    <PackageReference Include="cloudscribe.Logging.EFCore.SQLite" Version="3.0.8" />
+
+    <PackageReference Include="cloudscribe.Web.Localization" Version="2.0.*" />
+    
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+
+    <!-- Open Source libs end -->
+
+    <!-- Commercial libs start -->
+    
+    <PackageReference Include="cloudscribe.Forms.Web" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.Bootstrap4" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.CoreIntegration" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.ContentTemplate.Bootstrap4" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.Data.NoDb" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.Data.EFCore.MSSQL" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.Data.EFCore.MySql" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.Data.EFCore.PostgreSql" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.Data.EFCore.SQLite" Version="1.0.0" />
+
+    <!-- Commercial libs end -->
+    
+  </ItemGroup>
+
+
+</Project>
