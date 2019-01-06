@@ -1,6 +1,6 @@
 # Reference/demo app to showcase the cloudscribe Forms and Surveys Product
 
-[More information here]((https://www.cloudscribe.com/products/cloudscribe-forms-and-surveys-solution))
+[More information here](https://www.cloudscribe.com/products/cloudscribe-forms-and-surveys-solution)
 
 If you are new to cloudscribe see [the introduction](https://www.cloudscribe.com/docs/introduction)
 
