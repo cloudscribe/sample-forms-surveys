@@ -1,4 +1,8 @@
-# Reference/demo app to showcase the [cloudscribe Forms and Surveys Product](https://www.cloudscribe.com/products/cloudscribe-forms-and-surveys-solution)
+# Reference/demo app to showcase the cloudscribe Forms and Surveys Product
+
+[More information here]((https://www.cloudscribe.com/products/cloudscribe-forms-and-surveys-solution))
+
+If you are new to cloudscribe see [the introduction](https://www.cloudscribe.com/docs/introduction)
 
 The sample solution uses NoDb by default which is a file system storage, this enabled us to pre-populate the sample with some sample forms. You can change it to use MS SQL, My Sql, PostgreSql or SQLite by appsettings.json.
 
