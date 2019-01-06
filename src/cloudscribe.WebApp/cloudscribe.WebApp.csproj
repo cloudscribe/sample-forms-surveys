@@ -43,7 +43,7 @@
     <PackageReference Include="cloudscribe.SimpleContent.CompiledViews.Bootstrap4" Version="4.0.11" />
     <PackageReference Include="cloudscribe.SimpleContent.MetaWeblog" Version="4.0.8" />
     <PackageReference Include="cloudscribe.SimpleContent.Syndication" Version="4.0.5" />
-    <PackageReference Include="cloudscribe.SimpleContent.ContentTemplates.Bootstrap4" Version="1.0.11" />
+    <PackageReference Include="cloudscribe.SimpleContent.ContentTemplates.Bootstrap4" Version="1.0.12" />
     <PackageReference Include="cloudscribe.SimpleContent.Storage.NoDb" Version="4.0.8" />
     <PackageReference Include="cloudscribe.SimpleContent.Storage.EFCore.MSSQL" Version="4.0.5" />
     <PackageReference Include="cloudscribe.SimpleContent.Storage.EFCore.MySQL" Version="4.0.6" />
@@ -70,10 +70,10 @@
     <PackageReference Include="cloudscribe.Forms.CoreIntegration" Version="1.0.0" />
     <PackageReference Include="cloudscribe.Forms.ContentTemplate.Bootstrap4" Version="1.0.0" />
     <PackageReference Include="cloudscribe.Forms.Data.NoDb" Version="1.0.0" />
-    <PackageReference Include="cloudscribe.Forms.Data.EFCore.MSSQL" Version="1.0.0" />
-    <PackageReference Include="cloudscribe.Forms.Data.EFCore.MySql" Version="1.0.0" />
-    <PackageReference Include="cloudscribe.Forms.Data.EFCore.PostgreSql" Version="1.0.0" />
-    <PackageReference Include="cloudscribe.Forms.Data.EFCore.SQLite" Version="1.0.0" />
+    <PackageReference Include="cloudscribe.Forms.Data.EFCore.MSSQL" Version="1.0.1" />
+    <PackageReference Include="cloudscribe.Forms.Data.EFCore.MySql" Version="1.0.1" />
+    <PackageReference Include="cloudscribe.Forms.Data.EFCore.PostgreSql" Version="1.0.1" />
+    <PackageReference Include="cloudscribe.Forms.Data.EFCore.SQLite" Version="1.0.1" />
 
     <!-- Commercial libs end -->
     
