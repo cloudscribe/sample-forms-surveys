@@ -37,6 +37,13 @@ namespace Microsoft.Extensions.DependencyInjection
                 });
 
             options.AddPolicy(
+                "FileUploadPolicy",
+                authBuilder =>
+                {
+                    authBuilder.RequireAuthenticatedUser();
+                });
+
+            options.AddPolicy(
                 "FileManagerDeletePolicy",
                 authBuilder =>
                 {
