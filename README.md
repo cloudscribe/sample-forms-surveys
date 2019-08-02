@@ -30,7 +30,7 @@ If you have questions please visit our community forum https://www.cloudscribe.c
 
 ### Guided tour youtube video
 
-<iframe allowfullscreen="" width="560" height="315" src="https://www.youtube.com/embed/XKWdjVGO5V0" frameborder="0"></iframe>
+[![demo video](https://img.youtube.com/vi/XKWdjVGO5V0/0.jpg)](https://www.youtube.com/watch?v=XKWdjVGO5V0)
 
 
 
