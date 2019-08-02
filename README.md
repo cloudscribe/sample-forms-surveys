@@ -28,7 +28,7 @@ If you have questions please visit our community forum https://www.cloudscribe.c
 
 ![Form Builder screen shot](/screen-shots/form-builder1.jpg)
 
-### Guided tour video
+### Guided tour youtube video
 
 [![demo video](https://img.youtube.com/vi/XKWdjVGO5V0/0.jpg)](https://www.youtube.com/watch?v=XKWdjVGO5V0)
 
