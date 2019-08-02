@@ -20,9 +20,7 @@ Note that if you configure an email provider in appsettings then a new option wi
 
 Note there is a convention if you use the following question names: email, firstName, lastName, in forms/surveys then for authenticated users those fields can be pre-populated on the form.
 
-### Have Questions?
-
-[![Join the chat at https://gitter.im/joeaudette/cloudscribe](https://badges.gitter.im/joeaudette/cloudscribe.svg)](https://gitter.im/joeaudette/cloudscribe?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+If you have questions please visit our community forum https://www.cloudscribe.com/forum
 
 ### Screenshots
 
