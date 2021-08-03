@@ -12,7 +12,7 @@
     "lodash.mergewith": ">=4.6.2",
     "clean-css": ">=4.1.11",
     "fstream": ">=1.0.12",
-    "tar": ">=2.2.2",
+    "tar": ">=4.4.15",
     "jquery": ">=3.5.0",
     "@fortawesome/fontawesome-free": "5.2.0",
     "gulp": "^4.0.0",
